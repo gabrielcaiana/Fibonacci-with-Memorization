@@ -7,5 +7,3 @@ export const fib = () => {
   };
   return fibInner;
 };
-
-console.log(fib()(10))
