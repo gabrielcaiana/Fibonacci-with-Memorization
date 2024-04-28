@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "fibonacci-with-memorization",
   "version": "1.0.0",
   "description": "gabrielcaiana",
   "main": "src/index.js",
