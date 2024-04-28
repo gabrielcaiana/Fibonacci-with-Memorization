@@ -4,7 +4,8 @@ export const fib = () => {
       if (n in memo) return memo[n];
       if (n <= 1) return n;
       const result = fibInner(n - 1) + fibInner(n - 2); 
-      return memo[n] = result;
+      memo[n] = result;
+      return result
   };
   return fibInner;
 };
