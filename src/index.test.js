@@ -32,4 +32,8 @@ describe('Fibonacci Function', () => {
   test('calculates correct fib(20)', () => {
       expect(fib()(20)).toBe(6765);
   });
+
+  test('calculates correct fib(40)', () => {
+    expect(fib()(40)).toBe(102334155);
+});
 });
